@@ -1,7 +1,7 @@
 ## Primer playbook
 ### Código:
 
-```
+```yml
 ---
 - name: Playbook de Debug Simple
   hosts: all
