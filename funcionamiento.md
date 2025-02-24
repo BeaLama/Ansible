@@ -1,6 +1,8 @@
 ## Primer playbook
 ### Código:
 
+```yml
+---
 - name: Playbook de Debug Simple
   hosts: all
   gather_facts: no
@@ -9,6 +11,8 @@
     - name: Mostrar mensaje simple
       debug:
         msg: "Hola, este es un mensaje de depuración en Ansible."
+
+```
 
 - Se define un playbook con - name: Playbook de Debug Simple.
 
