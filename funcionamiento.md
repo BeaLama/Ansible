@@ -62,7 +62,7 @@
 ```yml
 ---
   - name: Playbook con Debug y Condiciones
-    hosts: localhost
+    hosts: all
     gather_facts: no
   
     vars:
