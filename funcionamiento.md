@@ -85,9 +85,9 @@
   
 - Se usa when: para ejecutar tareas condicionalmente:
   
-    * Si el servidor está "activo", se muestra un mensaje de que está funcionando.
+    - Si el servidor está "activo", se muestra un mensaje de que está funcionando.
 
-    * Si no está "activo", se muestra una advertencia.
+    - Si no está "activo", se muestra una advertencia.
 
 ![codigo3](img/codigo3.png)
 
