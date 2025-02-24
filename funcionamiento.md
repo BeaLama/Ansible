@@ -3,14 +3,14 @@
 
 ```yml
 ---
-- name: Playbook de Debug Simple
-  hosts: all
-  gather_facts: no
-
-  tasks:
-    - name: Mostrar mensaje simple
-      debug:
-        msg: "Hola, este es un mensaje de depuración en Ansible."
+  - name: Playbook de Debug Simple
+    hosts: all
+    gather_facts: no
+  
+    tasks:
+      - name: Mostrar mensaje simple
+        debug:
+          msg: "Hola, este es un mensaje de depuración en Ansible."
 
 ```
 
@@ -23,4 +23,41 @@
 - Se define una tarea con el módulo debug que muestra un mensaje.
 
 ![codigo1](img/codigo1.png)
-![comprobacion](img/comprobacion1.png)
+
+![comprobacion2](img/comprobacion1.png)
+
+## Segundo playbook
+### Código
+
+```yml
+---
+  - name: Playbook con Variables en Debug
+    hosts: all
+    gather_facts: no
+  
+    vars:
+      nombre_usuario: "Beatriz"
+      edad_usuario: 21
+  
+    tasks:
+      - name: Mostrar variable de nombre
+        debug:
+          msg: "El usuario se llama {{ nombre_usuario }} y tiene {{ edad_usuario }} años."
+
+```
+
+- Podemos declarar las variables dentro del mismo código o crearlas en otro archivo y llamarlas dentro del código.
+
+- Se definen variables (nombre_usuario y edad_usuario).
+  
+- Se usa debug para imprimir un mensaje utilizando las variables con {{ variable }}.
+
+![codigo2](img/codigo2.png)
+
+![comprobacion2](img/comprobacion2.png)
+
+
+
+
+
+
