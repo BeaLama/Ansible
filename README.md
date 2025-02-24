@@ -9,5 +9,7 @@ Su objetivo es simplificar la administración de sistemas, para lo que esta herr
 ## ÍNDICE
 
 1- [Módulo](modulo.md)
+
 2- [Funcionamiento](funcionamiento.md)
+
 3- [Referencias](referencias.md)
