@@ -1,4 +1,4 @@
-# Ansible
+# ANSIBLE
 
 ![ansible](img/ansible.webp)
 
@@ -12,7 +12,7 @@ Su objetivo es simplificar la administración de sistemas, para lo que esta herr
 
 2- [Funcionamiento](funcionamiento.md)
 
-## Referencias
+## REFERENCIAS
 
 [Debug1](https://labex.io/es/tutorials/ansible-ansible-playbook-basics-390426)
 
