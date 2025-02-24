@@ -1,0 +1,13 @@
+--- 
+  - name: Playbook con Variables en Debug
+    hosts: all
+    gather_facts: no
+
+    vars:
+      nombre_usuario: "Beatriz"
+      edad_usuario: 21
+
+    tasks:
+      - name: Mostrar variable de nombre
+        debug:
+          msg: "El usuario se llama {{ nombre_usuario }} y tiene {{ edad_usuario }} años."

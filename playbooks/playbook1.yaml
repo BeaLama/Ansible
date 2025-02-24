@@ -1,0 +1,9 @@
+---
+  - name: Playbook de Debug Simple
+    hosts: all
+    gather_facts: no
+
+    tasks:
+      - name: Mostrar mensaje simple
+        debug:
+          msg: "Hola, este es un mensaje de depuración en Ansible."
