@@ -21,3 +21,6 @@
 - gather_facts: no evita la recolección de información del sistema (para hacerlo más rápido).
 
 - Se define una tarea con el módulo debug que muestra un mensaje.
+
+![codigo1](img/codigo1.png)
+![comprobacion](comprobacion1.png)
