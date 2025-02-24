@@ -14,11 +14,11 @@ Su objetivo es simplificar la administración de sistemas, para lo que esta herr
 
 ## REFERENCIAS
 
-[Debug1](https://labex.io/es/tutorials/ansible-ansible-playbook-basics-390426)
+1- [Debug1](https://labex.io/es/tutorials/ansible-ansible-playbook-basics-390426)
 
-[Debug2](https://www.ochobitshacenunbyte.com/2020/01/07/10-modulos-importantes-para-ansible/)
+2- [Debug2](https://www.ochobitshacenunbyte.com/2020/01/07/10-modulos-importantes-para-ansible/)
 
-[Ansible](https://www.godaddy.com/resources/es/crearweb/que-es-ansible)
+3- [Ansible](https://www.godaddy.com/resources/es/crearweb/que-es-ansible)
 
-[ChatGPT](https://chatgpt.com/)
+4- [ChatGPT](https://chatgpt.com/)
 
