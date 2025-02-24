@@ -23,4 +23,4 @@
 - Se define una tarea con el módulo debug que muestra un mensaje.
 
 ![codigo1](img/codigo1.png)
-![comprobacion](comprobacion1.png)
+![comprobacion](img/comprobacion1.png)
